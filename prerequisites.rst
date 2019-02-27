@@ -29,6 +29,13 @@ Make sure credentials for your cluster are installed correctly (use the correct 
 .. code-block:: bash
 
    gcloud container clusters get-credentials ${CLUSTER_NAME} --zone us-central1-a
+   
+AWS
+^^^ 
+
+For AWS see: `Installing Kubernetes on AWS with kops <https://kubernetes.io/docs/setup/custom-cloud/kops/>`_ or `Getting started with Amazon EKS <https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html>`_. 
+
+To add GPU worker nodes to the cluster, refer to Setting up GPU enabled Kubernetes with kops (`1 <https://gist.github.com/stevenc81/1cad3a0ebca9303923d1cd4c3641f8bc>`_, `2 <https://medium.com/@amimahloof/running-gpu-enabled-instances-on-kubernetes-kops-aws-via-nvidia-device-plugin-cef527abea12>`_), `How to Automate Deep Learning Training with Kubernetes GPU-Cluster <https://github.com/Langhalsdino/Kubernetes-GPU-Guide>`_, or `GPUs & Kubernetes for Deep Learning <https://hackernoon.com/gpus-kubernetes-for-deep-learning-part-1-3-d8eebe0dd6fe>`_.
 
 Helm
 ----
